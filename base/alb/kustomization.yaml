@@ -1,0 +1,3 @@
+resources:  
+  - alb-controller.yaml
+  - ingclass.yaml
