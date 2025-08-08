@@ -1,0 +1,8 @@
+kafka_api:
+  brokers:
+    - "d0qfh2fl3k9bn433gbj0.any.us-east-1.mpx.prd.cloud.redpanda.com:9092"
+  sasl:
+    username: "vijaygaur"
+    password: "redpanda"
+    mechanism: "SCRAM-SHA-512"
+  security_protocol: "SASL_SSL"

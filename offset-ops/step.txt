@@ -1,0 +1,7 @@
+rpk group export \
+  --config .rpk-ccloud.yaml \
+  --output offsets.json
+
+rpk group import \
+  --brokers <redpanda-broker:9092> \
+  --input offsets.json

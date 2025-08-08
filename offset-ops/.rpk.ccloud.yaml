@@ -1,0 +1,8 @@
+kafka_api:
+  brokers:
+    - "pkc-921jm.us-east-2.aws.confluent.cloud:9092"
+  sasl:
+    username: "OJK5IVIBKAYA7FIP"
+    password: "Qtm4EKcJyco5bbevDWN6xxcpkZ+WKYFcDK1+GHQNcX7yDQmv25pbk0/e0HCKwsmO"
+    mechanism: "PLAIN"
+  security_protocol: "SASL_SSL"
