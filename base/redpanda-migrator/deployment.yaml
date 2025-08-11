@@ -32,7 +32,7 @@ spec:
               ls -l /shared
           env:
             - name: AWS_REGION
-              value: us-east-1
+              value: us-west-1
           volumeMounts:
             - name: shared-data
               mountPath: /shared
