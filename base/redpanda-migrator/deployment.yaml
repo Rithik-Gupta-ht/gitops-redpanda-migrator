@@ -62,4 +62,3 @@ spec:
           periodSeconds: 10
           timeoutSeconds: 2
           failureThreshold: 3
-# False update at 2025-08-13T17:21:38.899973Z
