@@ -6,7 +6,7 @@ metadata:
   labels:
     app: redpanda-migrator
 spec:
-  replicas: 0
+  replicas: 1
   selector:
     matchLabels:
       app: redpanda-migrator
@@ -27,7 +27,7 @@ spec:
         - -c
         - 'echo "Downloading config from S3..." && \
 
-          aws s3 cp s3://redpanda-config1/config-redpanda.yaml /shared/config.yaml
+          aws s3 cp s3://redpanda-config1/config-confluent.yaml /shared/config.yaml
           && \
 
           chmod 0664 /shared/config.yaml && \
@@ -62,4 +62,3 @@ spec:
           periodSeconds: 10
           timeoutSeconds: 2
           failureThreshold: 3
-# False update at 2025-08-14T13:39:43.789174Z
